@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagens Dinâmicas</h1>
+    <p>Site possível em diversos dispositivos</p>
+    
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/fotoP.png" type="image/png">
+       <source media="(max-width: 1050px)" srcset="imagens/fotoM.png" type="image/png">
+        <img src="imagens/fotoG.png" alt="Imagem Flexível">
+    </picture>
+
+    <h1>Reproduzindo Áudio</h1>
+    <audio preload="auto" autoplay controls loop
+     source src="midia/WhatsApp Audio 2023-01-31 at 10.05.18.aac" type="audio/mpeg">
+    <p>Infelizmente seu navegador não conseguiu carregar o áudio! <a href="midia/WhatsApp Audio 2023-01-31 at 10.05.18.aac">Clique aqui para baixar</a></p> </audio><!--MP3-->
+     
+    <h3>Caso não consiga baixar  esse áudio, tente baixar pela nossas redes sociais <a href="https://www.instagram.com/samuel_da_silva25/" target="_blank" rel="external"><q>Abrir no Instagram</q></a></h3>
+
+</body>
+</html>
